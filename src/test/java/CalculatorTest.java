@@ -7,6 +7,7 @@ class CalculatorTest {
     @Test
     void add() {
         assertEquals(8,calculator.add(5,3));
+        //факинг фак
     }
 
     @Test

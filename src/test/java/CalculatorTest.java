@@ -12,6 +12,7 @@ class CalculatorTest {
 
     @Test
     void dif() {
+        //парам
         assertEquals(-2,calculator.dif(-1,1));
     }
 

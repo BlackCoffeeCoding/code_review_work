@@ -2,9 +2,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ main ]
+    branches: [ Ursus ]
   pull_request:
-    branches: [ main ]
+    branches: [ Ursus ]
   schedule:
     - cron: '30 12 * * 3' # каждую среду в 12:30
     - cron: '0 22 * * 5' # каждую пятницу в 22:00
